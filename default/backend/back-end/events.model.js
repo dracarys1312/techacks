@@ -3,16 +3,16 @@ const Schema = mongoose.Schema;
 
 let Event = new Schema({
   event_lat: {
-    type: String
+    type: Float
   },
   event_long: {
-    type:String
+    type: Float
   },
   event_name : {
     type: String
   },
   event_time: {
-    type: String
+    type: Date
   },
   event_address: {
     type: String
