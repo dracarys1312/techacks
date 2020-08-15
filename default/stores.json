@@ -9,11 +9,12 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
-                "hours": "10am - 6pm",
-                "description": "Modern twists on classic pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Mayfair",
-                "phone": "+44 20 1234 5678",
+              "event_name": "Hello",
+              "event_time": "Today",
+              "event_address": "No Address",
+      "event_generalInfo": "Hello World",
+      "event_type": "Educational",
+      "event_organizer": "Nguyen",
                 "storeid": "01"
             }
         },
@@ -26,11 +27,12 @@
             },
             "type": "Feature",
             "properties": {
-                "category": "patisserie",
-                "hours": "10am - 6pm",
-                "description": "Come and try our award-winning cakes and pastries. We're part of a larger chain of patisseries and cafes.",
-                "name": "Josie's Patisserie Bristol",
-                "phone": "+44 117 121 2121",
+              "event_name": "Hello",
+      "event_time": "Today",
+      "event_address": "No Address",
+      "event_generalInfo": "Hello World",
+      "event_type": "Educational",
+      "event_organizer": "Nguyen",
                 "storeid": "02"
             }
         },

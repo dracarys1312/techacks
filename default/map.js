@@ -13,15 +13,25 @@ function initMap() {
 
   // Show the information for a store when its marker is clicked.
   map.data.addListener('click', (event) => {
-    const category = event.feature.getProperty('category');
-    const name = event.feature.getProperty('name');
-    const description = event.feature.getProperty('description');
-    const hours = event.feature.getProperty('hours');
-    const phone = event.feature.getProperty('phone');
+    // const category = event.feature.getProperty('category');
+    // const name = event.feature.getProperty('name');
+    // const description = event.feature.getProperty('description');
+    // const hours = event.feature.getProperty('hours');
+    // const phone = event.feature.getProperty('phone');
+    // const position = event.feature.getGeometry().get();
+    // const content = `
+    //   <h2>${name}</h2><p>${description}</p>
+    //   <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+    // `;
+
+    const name = event.feature.getProperty("event_name");
+    const time = event.feature.getProperty('event_time');
+    const address = event.feature.getProperty('event_address');
+    const organizer = event.feature.getProperty('event_organizer');
     const position = event.feature.getGeometry().get();
     const content = `
-      <h2>${name}</h2><p>${description}</p>
-      <p><b>Open:</b> ${hours}<br/><b>Phone:</b> ${phone}</p>
+      <h2>${name}</h2><p>${time}</p>
+      <p><b>Address:</b> ${address}<br/><b>Organizer:</b> ${organizer}</p>
     `;
 
     infoWindow.setContent(content);
