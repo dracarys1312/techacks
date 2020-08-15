@@ -7,6 +7,10 @@ iframe {
     height: 83.6vh;
     width: 100vw;
 }
+#map {
+  height: 83.6vh;
+  width: 100vw;
+}
 
 .filterBar {
   height: 100%;
