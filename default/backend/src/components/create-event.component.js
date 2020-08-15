@@ -111,165 +111,106 @@ export default class CreateEvent extends Component {
   }
 
   render() {
-    // return (
-    //   <div style = {{marginTop: 20}}>
-      //   <h3>Create New Event</h3>
-      //   <form onSubmit = {this.onSubmit}>
-      //     <div className = 'form-group'>
-      //       <label>Name: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_name}
-      //              onChange = {this.onChangeEventName}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Time: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_time}
-      //              onChange = {this.onChangeEventTime}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Addres: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_address}
-      //              onChange = {this.onChangeEventAddress}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Description: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_generalInfo}
-      //              onChange = {this.onChangeEventGeneralInfo}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Type: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_type}
-      //              onChange = {this.onChangeEventType}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Organizer: </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_organizer}
-      //              onChange = {this.onChangeEventOrganizer}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <label>Registration link (Optional): </label>
-      //       <input type = 'text'
-      //              className= 'form-control'
-      //              value = {this.state.event_registration_link}
-      //              onChange = {this.onChangeEventRegistrationLink}
-      //              />
-      //     </div>
-      //
-      //     <div className = 'form-group'>
-      //       <p>Is this a virtual event? </p>
-      //       <div className = 'form-check form-check-inline'>
-      //       <input className= 'form-check-input'
-      //              type = 'radio'
-      //              name = 'virtual'
-      //              id = 'Yes'
-      //              value = 'Yes'
-      //              checked = {this.state.event_virtual === 'Yes'}
-      //              onChange = {this.onChangeEventVirtual}
-      //              />
-      //       <label className = 'form-check-label'>Yes</label>
-      //
-      //       <input className= 'form-check-input'
-      //              type = 'radio'
-      //              name = 'virtual'
-      //              id = 'No'
-      //              value = 'No'
-      //              checked = {this.state.event_virtual === 'No'}
-      //              onChange = {this.onChangeEventVirtual}
-      //              />
-      //       <label className = 'form-check-label'>No</label>
-      //       </div>
-      //     </div>
-      //
-      return (
-        <div style = {{marginTop: 20}}>
-        <form>
-          <div class="form-row">
-            <div class="form-group col-md-12">
-                 <input type="text"
-                        class="form-control"
-                        id="form36"
-                        placeholder="Event Name"
-                        value = {this.state.event_name}
-                        onChange = {this.onChangeEventName}/>
-
-                 </div>
+    return (
+      <div style = {{marginTop: 20}}>
+        <h3>Create New Event</h3>
+        <form onSubmit = {this.onSubmit}>
+          <div className = 'form-group'>
+            <label>Name: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_name}
+                   onChange = {this.onChangeEventName}
+                   />
           </div>
 
-          <div class="form-group">
-                <input type="text"
-                       class="form-control"
-                       id="form38"
-                       placeholder="Location"
-                       value = {this.state.event_address}
-                       onChange = {this.onChangeEventAddress}/>
+          <div className = 'form-group'>
+            <label>Time: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_time}
+                   onChange = {this.onChangeEventTime}
+                   />
           </div>
-          <div class="form-group">
-                <input type="email"
-                        class="form-control"
-                        id="form39"
-                        placeholder="Time"
-                        value = {this.state.event_time}
-                        onChange = {this.onChangeEventTime}/>
+
+          <div className = 'form-group'>
+            <label>Addres: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_address}
+                   onChange = {this.onChangeEventAddress}
+                   />
           </div>
-          <div class="form-row">
-            <div class="form-group col-md-12">
-                  <input type="text"
-                         class="form-control"
-                         id="form41"
-                         placeholder="Description"
-                         value = {this.state.event_generalInfo}
-                         onChange = {this.onChangeEventGeneralInfo}/>
+
+          <div className = 'form-group'>
+            <label>Description: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_generalInfo}
+                   onChange = {this.onChangeEventGeneralInfo}
+                   />
+          </div>
+
+          <div className = 'form-group'>
+            <label>Type: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_type}
+                   onChange = {this.onChangeEventType}
+                   />
+          </div>
+
+          <div className = 'form-group'>
+            <label>Organizer: </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_organizer}
+                   onChange = {this.onChangeEventOrganizer}
+                   />
+          </div>
+
+          <div className = 'form-group'>
+            <label>Registration link (Optional): </label>
+            <input type = 'text'
+                   className= 'form-control'
+                   value = {this.state.event_registration_link}
+                   onChange = {this.onChangeEventRegistrationLink}
+                   />
+          </div>
+
+          <div className = 'form-group'>
+            <p>Is this a virtual event? </p>
+            <div className = 'form-check form-check-inline'>
+            <input className= 'form-check-input'
+                   type = 'radio'
+                   name = 'virtual'
+                   id = 'Yes'
+                   value = 'Yes'
+                   checked = {this.state.event_virtual === 'Yes'}
+                   onChange = {this.onChangeEventVirtual}
+                   />
+            <label className = 'form-check-label'>Yes</label>
+
+            <input className= 'form-check-input'
+                   type = 'radio'
+                   name = 'virtual'
+                   id = 'No'
+                   value = 'No'
+                   checked = {this.state.event_virtual === 'No'}
+                   onChange = {this.onChangeEventVirtual}
+                   />
+            <label className = 'form-check-label'>No</label>
             </div>
           </div>
-          <div class="form-group">
-              <input type="text"
-                    class="form-control"
-                    id="form42"
-                    placeholder="Organizer"
-                    value = {this.state.event_organizer}
-                    onChange = {this.onChangeEventOrganizer}/>
-          </div>
+
 
           <div className="form-group">
               <input type="submit" value="Create Event" className="btn btn-primary" />
           </div>
         </form>
-        </div>
-          // <div className="form-group">
-          //     <input type="submit" value="Create Event" className="btn btn-primary" />
-          // </div>
+      </div>
 
 
-
-
-
-        // </form>
-
-
-      // </div>
     )
   }
 }
