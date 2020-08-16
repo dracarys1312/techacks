@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/theme.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+    <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar14">
+      </button>
+      <div class="collapse navbar-collapse" id="navbar14">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> </li>
+          <li class="nav-item mx-1"> <a onclick="openNav()" class="nav-link" href="#">
+              <i class="fa fa-filter fa-fw fa-lg"></i>
+            </a> </li>
+        </ul>
+        <p class="d-none d-md-block lead mb-0 text-dark">Maptivist</p>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-1"> <a class="nav-link" data-toggle="modal" data-target="#modalContactForm">
+              <i class="fa fa-calendar-plus-o fa-fw fa-lg"></i>
+            </a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="filterBar" class="filterBar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Host an event</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body mx-3">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-12"> <input type="text" class="form-control" id="form36" placeholder="Event Name"> </div>
+            </div>
+            <div class="form-group"> <input type="text" class="form-control" id="form38" placeholder="Location"> </div>
+            <div class="form-group"> <input type="email" class="form-control" id="form39" placeholder="Email"> </div>
+            <div class="form-row">
+              <div class="form-group col-md-12"> <input type="text" class="form-control" id="form41" placeholder="Location"> </div>
+            </div>
+            <div class="form-group"> <input type="text" class="form-control" id="form42" placeholder="Subject"> </div>
+            <div class="form-group"> <textarea class="form-control" id="form43" rows="3" placeholder="Your message"></textarea> </div>
+          </form>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-unique">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="map"></div>
+  <div class="py-3 bg-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
+          <ul class="nav d-flex justify-content-center">
+            <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="about.html">About us</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">Terms of use</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnybvtrUm3YEkYd6SPXnzXomrlZQtPLrc&callback=initMap">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="overlay.js"></script>
+  <script type="text/javascript" src="map.js"></script>
+</body>
+
+</html>
