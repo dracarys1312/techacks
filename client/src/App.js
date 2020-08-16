@@ -1,38 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import ReactMapGL, { Marker, Popup } from 'react-map-gl';
-
 import { listLogEntries } from './API';
 import LogEntryForm from './LogEntryForm';
 
-class Navbar extends React.Component{
-    render() {
-        return (
-          <nav class="navbar bg-primary navbar-light" >
-            <div class="container d-flex justify-content-center"> <a class="navbar-brand">Maptivist</a> </div>
-          </nav>
-        );
-    }
-}
-
-class Footer extends React.Component{
-  render() {
-    return(
-      <div class="py-3 bg-primary">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
-              <ul class="nav d-flex justify-content-center">
-                <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Terms of use</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
+import Footer from "./components/Footer";
 
 const App = () => {
   const [logEntries, setLogEntries] = useState([]);
@@ -45,7 +16,6 @@ const App = () => {
     longitude: -95.665,
     zoom: 3
   });
-
   const getEntries = async () => {
     const logEntries = await listLogEntries();
     setLogEntries(logEntries);
@@ -65,7 +35,6 @@ const App = () => {
 
   return (
     <>
-    <Navbar />
 
     <ReactMapGL
       {...viewport}
