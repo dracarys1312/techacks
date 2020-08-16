@@ -14,7 +14,7 @@ class Routing extends Component {
     <Router>
         <div>
           <nav class="navbar bg-primary navbar-light" >
-            <div class="container d-flex justify-content-center"> <a class="navbar-brand"><Link to={'/'} className="nav-link">Maptivist</Link></a> </div>
+            <div class="container d-flex justify-content-center" > <a class="navbar-brand"><Link to={'/'} className="nav-link">Maptivist</Link></a> </div>
           </nav>
           <Switch>
               <Route exact path='/' component={App} />
