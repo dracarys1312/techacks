@@ -22,6 +22,7 @@ class Navbar extends React.Component{
 
 }
 
+
 class Footer extends React.Component{
   render() {
     return(
