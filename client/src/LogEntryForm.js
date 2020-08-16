@@ -28,7 +28,7 @@ const LogEntryForm = ({ location, onClose }) => {
       <label htmlFor="title">Title</label>
       <input name="title" required ref={register} />
       <label htmlFor="organizer">Organizer</label>
-      <textarea name="organizer" rows={3} ref={register}></textarea>
+      <input name="organizer" rows={3} ref={register}></input>
       <label htmlFor="description">Description</label>
       <textarea name="description" rows={3} ref={register}></textarea>
       <label htmlFor="externalLink">External Link</label>

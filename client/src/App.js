@@ -7,26 +7,9 @@ import LogEntryForm from './LogEntryForm';
 class Navbar extends React.Component{
     render() {
         return (
-          <nav class="navbar navbar-expand-lg bg-primary navbar-light">
-            <div class="container">
-              <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar14">
-              </button>
-              <div class="collapse navbar-collapse" id="navbar14">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item"> </li>
-                  <li class="nav-item mx-1"> <a onclick="openNav()" class="nav-link" href="#">
-                      <i class="fa fa-filter fa-fw fa-lg"></i>
-                    </a> </li>
-                </ul>
-                <p class="d-none d-md-block lead mb-0 text-dark">Maptivist</p>
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item mx-1"> <a class="nav-link" data-toggle="modal" data-target="#modalContactForm">
-                      <i class="fa fa-calendar-plus-o fa-fw fa-lg"></i>
-                    </a> </li>
-                </ul>
-              </div>
-            </div>
-            </nav>
+          <nav class="navbar bg-primary navbar-light" >
+            <div class="container d-flex justify-content-center"> <a class="navbar-brand">Maptivist</a> </div>
+          </nav>
         );
     }
 }
