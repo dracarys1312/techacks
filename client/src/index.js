@@ -4,7 +4,7 @@ import './index.css';
 import './style.css';
 import './theme.css';
 import App from './App';
+import About from './About';
 
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<About />, document.getElementById('root'));
