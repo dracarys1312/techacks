@@ -19,6 +19,7 @@ class About extends React.Component{
               </p>
             </div>
 
+
             <div class="px-md-5 p-3 col-md-6 d-flex flex-column align-items-start justify-content-start">
               <h1>Why us?</h1>
               <p class="mb-3 lead">Ever find yourself overwhelmed by the massive pool of information on the internet and unable to find activist activities of your interest?</p>
