@@ -13,7 +13,7 @@ const app = express();
 
 app.enable('trust proxy'); // needed for rate limiting by Client IP
 
-mongoose.connect("mongodb://localhost/techacks", {
+mongoose.connect("mongodb://admin:admin1312@ds037067.mlab.com:37067/techacks", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

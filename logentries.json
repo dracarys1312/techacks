@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "5f38f86534d59b0ac4f444b1"
+  },
+  "title": "test",
+  "organizer": "test",
+  "description": "test",
+  "externalLink": "test.com",
+  "date": {
+    "$date": "2020-08-16T00:00:00Z"
+  },
+  "latitude": 29.289895030298347,
+  "longitude": -94.69820312500013,
+  "createdAt": {
+    "$date": "2020-08-16T09:12:05.818Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T09:12:05.818Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3938e443cd7f0a884df63e"
+  },
+  "title": "Virtual Meet-and-Greet a Lincoln Park Zoo Animal by Lincoln Park Zoo  Follow",
+  "organizer": "Lincoln Park Zoo",
+  "description": "Lincoln Park Zoo is home to nearly 200 species. During this virtual experience, you will start your day with an intimate look at the fascinating animals living at Lincoln Park Zoo. Each Saturday, you will join other guests and one of our animal curators, on a journey to learn more about a specific animal group— from their habits and diets to their individualized care and general personality traits.",
+  "externalLink": "https://www.eventbrite.com/e/virtual-meet-and-greet-a-lincoln-park-zoo-animal-tickets-111336803376?aff=ebdssbcitybrowse&fbclid=IwAR2bW8jLUg_7RXKCw920jZHZFVfdZLmJG02tNapSJuCYruToorEekGBkL4A",
+  "date": {
+    "$date": "2020-08-08T00:00:00Z"
+  },
+  "latitude": 41.92066355231244,
+  "longitude": -87.63333852497051,
+  "createdAt": {
+    "$date": "2020-08-16T13:47:16.914Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T13:47:16.914Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3939ae43cd7f0a884df63f"
+  },
+  "title": "Stand Out for Black Lives at Adams Corner, Dorchester",
+  "organizer": "Dorchester People for Peace",
+  "description": "We will continue the call for racial justice by spreading ourselves out on the corners of Gallivan Blvd, Adams St. and Granite Ave with signs that communicate to our neighbors and commuters that the multiple threats to Black lives and systemic racism must end. Wear masks and maintain social distance.",
+  "externalLink": "https://masspeaceaction.org/event/stand-out-for-black-lives-at-adams-corner-dorchester/?fbclid=IwAR0pB9J98ESMLkVsp8-KBOeT-Cega2fUyUnfeA88f7wU4vZBENY3q_pRHN4",
+  "date": {
+    "$date": "2020-08-21T00:00:00Z"
+  },
+  "latitude": 42.260672450215104,
+  "longitude": -71.01305093410059,
+  "createdAt": {
+    "$date": "2020-08-16T13:50:38.870Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T13:50:38.870Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f393b9c43cd7f0a884df640"
+  },
+  "title": "Bark at the Park",
+  "organizer": "Teddy Hova",
+  "description": "Join the Mets and North Shore Animal League America for Bark At The Park at Citi Field! Bring your canine companion and support the largest no-kill animal rescue and adoption organization in the world.\n\nSit together with fellow dog lovers in designated Coca-Cola Corner seats. A portion of the dog ticket and of the human ticket will benefit North Shore Animal League America. Dogs will only be allowed in the Coca-Cola Corner at Citi Field.",
+  "externalLink": "https://www.facebook.com/events/526924351277374/",
+  "date": {
+    "$date": "2020-09-01T00:00:00Z"
+  },
+  "latitude": 40.756409102215635,
+  "longitude": -73.8465108053252,
+  "createdAt": {
+    "$date": "2020-08-16T13:58:52.722Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T13:58:52.722Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f393da643cd7f0a884df641"
+  },
+  "title": "9/11 Memorial \"Run for Richie\" Motorcycle Ride to W.T.C.",
+  "organizer": "Forest Hills Volunteer Ambulance Corps., 9/11 Memorial Ride ",
+  "description": "On 9/11 one of those lost was Richard Allen Pearlman, the youngest first responder lost that day. He joined the Forest Hills Ambulance Corps at the age of 14 as a Junior Corps member and excelled in the position of Dispatcher and at 18 joined the Senior Corps. Richie headed to the WTC on foot from his job at a law firm and was ordered back to his job by his employer for safety reasons, but remained at the WTC site. A picture on pages 16-17 in Newsweek's Extra Edition of America Under Attack shows Richie aiding the injured. He was only 18 years old. We have named the ride in his honor, \"Run For Richie\". ",
+  "externalLink": "https://www.facebook.com/events/329062304484898/",
+  "date": {
+    "$date": "2020-09-13T00:00:00Z"
+  },
+  "latitude": 40.676414645897125,
+  "longitude": -73.84180073045665,
+  "createdAt": {
+    "$date": "2020-08-16T14:07:34.435Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T14:07:34.435Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f393efe43cd7f0a884df642"
+  },
+  "title": "Bringing the Zoo to You Weekly - LIVE",
+  "organizer": "Houston Zoo",
+  "description": "We’re continuing to bring the Houston Zoo to you every Wednesday at 11:00 a.m. CST with a weekly Facebook Live series! We will be sharing updates of what our furred, flippered, and feathered friends are up to and how our zookeepers are caring for them. ",
+  "externalLink": "http://www.houstonzoo.org/bringing-the-zoo-to-you/?fbclid=IwAR2Bf_UmeAhtq8UiplQBiY-DBzSD5sJyPqjhetmUwpXfCB34CdsdmN6Jg0Q",
+  "date": {
+    "$date": "2020-08-19T00:00:00Z"
+  },
+  "latitude": 29.71266424268287,
+  "longitude": -95.39161878481279,
+  "createdAt": {
+    "$date": "2020-08-16T14:13:18.642Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T14:13:18.642Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f3940bb43cd7f0a884df643"
+  },
+  "title": "Women's Health and Activism Summit",
+  "organizer": "The Lovinger Theatre",
+  "description": "In honor of Women’s History Month and recognition of National Women and Girls HIV/AIDS Awareness Day, the Women’s Advisory Board and the New York City Health Department are hosting its fourth annual Women’s Health and Activism Summit focused on \"Reclaiming My Power.\" This year’s theme is “I am the full circle, within me is the power to create, nurture, and transform”. This event will provide a space for women to recharge, renew, and relax while participating in conversations and workshops on HIV, wellness, personal and professional development, mental health, and healing. Join us for a day of empowerment and fun!",
+  "externalLink": "https://www.eventbrite.com/e/womens-health-and-activism-summit-tickets-94023239039",
+  "date": {
+    "$date": "2020-03-21T00:00:00Z"
+  },
+  "latitude": 40.87322788356312,
+  "longitude": -73.89355977275693,
+  "createdAt": {
+    "$date": "2020-08-16T14:20:43.586Z"
+  },
+  "updatedAt": {
+    "$date": "2020-08-16T14:20:43.586Z"
+  },
+  "__v": 0
+}]
