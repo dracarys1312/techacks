@@ -14,7 +14,7 @@ const router = Router();
 const rateLimitDelay = 10 * 1000; // 10 second delay
 const limiter = new RateLimit({
   store: new MongoStore({
-    uri: "mongodb://localhost/techacks",
+    uri: "mongodb://admin:admin1312@ds037067.mlab.com:37067/techacks",
     expireTimeMs: rateLimitDelay,
   }),
   max: 1,
