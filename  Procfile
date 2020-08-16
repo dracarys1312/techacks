@@ -1,1 +1,4 @@
-web: node index.js
+web: nodemon index.js
+web: cd client/
+web: mpm install
+web: npm start
