@@ -4,6 +4,53 @@ import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import { listLogEntries } from './API';
 import LogEntryForm from './LogEntryForm';
 
+class Navbar extends React.Component{
+    render() {
+        return (
+          <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+            <div class="container">
+              <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar14">
+              </button>
+              <div class="collapse navbar-collapse" id="navbar14">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"> </li>
+                  <li class="nav-item mx-1"> <a onclick="openNav()" class="nav-link" href="#">
+                      <i class="fa fa-filter fa-fw fa-lg"></i>
+                    </a> </li>
+                </ul>
+                <p class="d-none d-md-block lead mb-0 text-dark">Maptivist</p>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item mx-1"> <a class="nav-link" data-toggle="modal" data-target="#modalContactForm">
+                      <i class="fa fa-calendar-plus-o fa-fw fa-lg"></i>
+                    </a> </li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+        );
+    }
+}
+
+class Footer extends React.Component{
+  render() {
+    return(
+      <div class="py-3 bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center d-md-flex justify-content-between align-items-center">
+              <ul class="nav d-flex justify-content-center">
+                <li class="nav-item"> <a class="nav-link active" href="#">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">About us</a> </li>
+                <li class="nav-item"> <a class="nav-link" href="#">Terms of use</a> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
 const App = () => {
   const [logEntries, setLogEntries] = useState([]);
   const [showPopup, setShowPopup] = useState({});
@@ -34,6 +81,9 @@ const App = () => {
   };
 
   return (
+    <>
+    <Navbar />
+
     <ReactMapGL
       {...viewport}
       mapStyle="mapbox://styles/npthao1312/ckdwonlqp3b5z19nw2pov1qth"
@@ -138,6 +188,8 @@ const App = () => {
         ) : null
       }
     </ReactMapGL>
+    <Footer />
+    </>
   );
 }
 
